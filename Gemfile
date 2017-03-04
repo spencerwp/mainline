@@ -38,7 +38,7 @@ gem "skylight"
 gem "unicorn-worker-killer"
 
 if ENV['GTS_ENGINE'].to_s != 'true'
-  gem "gitorious-issues", :git => "https://git.gitorious.org/gitorious/gitorious-issues.git", :branch => 'master'
+  gem "gitorious-issues", :git => "https://gitorious.org/gitorious/gitorious-issues.git", :branch => 'master'
 end
 
 group :openid do
